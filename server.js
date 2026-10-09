@@ -10,9 +10,9 @@ app.use(express.static('public'));
 
 const db = mysql.createPool({
     host: 'localhost',
-    user: 'admin',
+    user: 'adminF',
     password: '1234',
-    database: 'login',
+    database: 'usuarios',
     port: 3306,
 });
 
